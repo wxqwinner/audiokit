@@ -1,3 +1,11 @@
+"""
+main.py Main program entry.
+
+@history
+ 2021-06-04 wangxq Created.
+
+Copyright (c) 2021~ wangxq.
+"""
 from audiokit import *
 
 if __name__ == '__main__':

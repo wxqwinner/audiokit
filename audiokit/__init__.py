@@ -18,6 +18,9 @@ from audiokit.utils import get_format
 shape = (batchsize \ num_frame, channels, monolen)
 """
 
+__version__ = '0.0.1'
+
+
 def audioread(filename, samples=None, dtype=np.float64) -> tuple:
     format = get_format(filename)
     sound = AudioSegment.from_file(filename, format=format)

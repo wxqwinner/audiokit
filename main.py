@@ -6,11 +6,17 @@ main.py Main program entry.
 
 Copyright (c) 2021~ wangxq.
 """
+
 from audiokit import *
 
-if __name__ == '__main__':
+
+def main():
     wav_file = './data/speech_48k_2_16.wav'
     x, fs = audioread(wav_file)
     sound(x, fs)
     audiowrite('2.wav', x, fs)
     pass
+
+
+if __name__ == '__main__':
+    main()

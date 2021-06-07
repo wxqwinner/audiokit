@@ -14,4 +14,4 @@ import pytest
 import audiokit
 
 def test_version():
-    assert audiokit.__version__ == '0.0.1'
+    assert audiokit.__version__ == '0.0.2'
